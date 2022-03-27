@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF;
+}
+*{
+  font-family:'Vollkon',serif;
+ 
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 400;
+  /* на всякий случ  */
+  padding: 0;
+  margin: 0;
+  line-height: 1.4em;
+  margin-top: 20px;
+  font-weight: 400;
+}
+.wrapper{
+  margin-top:50;
+  max-width: 1250px;
+  margin:0px auto;
+ 
+}
+
+header{
+  border-bottom: 1px solid #eaeaea;
+  
+  .headerLeft{
+    
+    display: flex;
+    align-items: center;
+    
+  }
+  .headerInfo{
+    margin: 30px auto;
+  
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    // margin-top: px;
+    h1{
+      
+     color: #6683ee;
+     font-size: 18px;
+     font-weight: 700;
+     
+    }
+    p { /* отступ в буквах */
+      letter-spacing: 0.03em;
+      /* высота строки */
+      line-height: 1.55em; 
+      // margin: 20px;
+      margin-top: 1px;
+      // font-size: 0px;
+      // font-weight: 900;
+    }
+    // margin-right: 600px;
+    
+    
+  }
+  // img{
+  //    margin-right: 100px;
+  // }
+ 
+  
+  
+ 
+}
+
